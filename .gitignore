@@ -1,0 +1,9 @@
+# .gitignore
+BPB-Tools
+BPB-Tools.exe
+result.csv
+*.log
+tmp/
+.vscode/
+.idea/
+vendor/
