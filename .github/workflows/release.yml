@@ -58,6 +58,10 @@ jobs:
           pattern: BPB-Tools-*
           merge-multiple: true
 
+      - name: Delete Old Release
+        run: gh release delete ${{ github.ref_name }} --yes --repo ${{ github.repository }}
+        continue-on-error: true
+
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
