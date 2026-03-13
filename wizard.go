@@ -61,9 +61,9 @@ const (
 
 // worker.js 下载地址（多个备用源）
 var workerURLs = []string{
-	"https://github.com/Nihiliaan/BPB-Worker-Panel/releases/latest/download/worker.js",
-	"https://ghp.ci/https://github.com/Nihiliaan/BPB-Worker-Panel/releases/latest/download/worker.js",
-	"https://ghproxy.net/https://github.com/Nihiliaan/BPB-Worker-Panel/releases/latest/download/worker.js",
+	"https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/latest/download/worker.js",
+	"https://ghp.ci/https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/latest/download/worker.js",
+	"https://ghproxy.net/https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/latest/download/worker.js",
 }
 
 func downloadFile(url, dest string) error {
